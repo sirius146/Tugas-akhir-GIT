@@ -18,7 +18,7 @@ function onsubmitForm() {
 
   }
   else {
-    alert('Maaf, browser anda tidak support local storage');
+    alert('Maaf, browser anda tidak support local storages');
   }
 }
 

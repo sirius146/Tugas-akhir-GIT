@@ -55,7 +55,6 @@ function renderTodos(todos) {
     li.setAttribute('data-key', item.id);
     /* <li class="item" data-key="20200708"> 
           <input type="checkbox" class="checkbox">
-          Go to Gym
           <button class="delete-button">X</button>
         </li> */
     // if item is completed, then add a class to <li> called 'checked', which will add line-through style
