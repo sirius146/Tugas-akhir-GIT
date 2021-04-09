@@ -1,0 +1,37 @@
+.todo-items {
+    margin: 1rem;
+    list-style-type: none;
+}
+
+.item {
+    padding: 0.5rem;
+}
+
+.item.checked {
+    text-decoration: line-through;
+}
+
+#header-todos .jumbotron {
+    background-image: url(../assets/images/banner-gallery.png);
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+#todoList .todo-items {
+    padding: 0px;
+}
+
+#todoList .todo-items li {
+    margin: 20px 0px;
+    background-color: #EEF2FF;
+}
+
+#todoList .todo-items .delete-button {
+    display: inline-block;
+    float: right;
+}
+
+#todoList .todo-form {
+    margin-left: 20px;
+}

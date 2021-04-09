@@ -1,0 +1,35 @@
+#header .jumbotron-fluid {
+    height: 700px;
+    background-image: url("../assets/images/banner-contact.png") !important;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header .form{
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+#header h1 {
+    align-items: center;
+    font-weight: bolder;
+    color: white;
+}
+
+
+#social-media .title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#social-media .isi{
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+#social-media p{
+    margin-top: 25px;
+    font-size: 25px;
+}

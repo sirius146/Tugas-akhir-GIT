@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+
+body, head, footer{
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+.nav-item{
+  padding: 10px 10px;
+}
+
+table,th,td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 16px;
+} 
+
+.text-content-jumbotron {
+  max-width: 506px;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1296px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#jumbotron {
+  padding: 130px 0px;
+}
+
+.jumbo-edit{
+padding: 50px 30px;
+}
+
+.jumbo-img{
+  margin-right: 30px;
+  max-width: 800px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #e14817;
+  border-color: #e14817;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+  box-shadow: 0 0 0 0.2rem rgba(201, 64, 20, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(201, 64, 20, 0.5);
+}
+
+#banner {
+  margin-bottom: 100px;
+}
+#banner .main-container .title{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#banner .main-container .title h2{
+  font-weight: bold;
+  text-align: center;
+}
+
+#tutorial .title h2 {
+  margin-bottom : 60px;
+}
+
+#tutorial .img-with-text{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#tutorial .img-with-text p{
+  text-align: center;
+  padding-left: 30px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+#tutorial .img-with-text .btn{
+  text-align: center;
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 120px;
+  margin-left: 30px;
+}
+
+#tutorial .img-with-text img{
+  display: block;
+    margin: 0 auto;
+}
+
+#show-univ {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#show-univ .title{
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+#show-univ .btn-tutor{
+  text-align: center;
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+  border-radius: 10px;
+  width: 500px;
+  margin-top:40px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+#testimoni {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+#testimoni .title-testi{
+  margin-top: 50px;
+}
+
+#testimoni .title {
+  padding-left: 50px;
+}
+
+#testimoni .main-container .title h1{
+  font-weight:bolder;
+  font-size: 50px;
+}
+#testimoni .main-container #carouselExampleIndicators {
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+#testimoni .container-testimoni {
+  margin: 20px 80px 0px;
+}
+
+#testimoni .testi-name{
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #003886;
+
+}
+
+#testimoni .testi-univ{
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+#testimoni .testi-isi{
+  font-weight:200;
+}
+
+#testimoni .img-circle {
+  border-radius: 50%;
+	width: 100px;
+	height: 100px;
+  margin-top: 5px;
+
+}
+
+#testimoni .carousel-control-prev-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+#testimoni .carousel-control-next-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+#testimoni .carousel-item{
+  background-color: #EEF2FF;
+  max-height: 600px;
+  padding-bottom: 10px;
+}
+
+#jumbotron-2 .jumbotron-bawah{
+  background-image: url("../assets/images/banner-bawah.png") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #EEF2FF;
+  font-weight: bold;
+}
+
+#jumbotron-2 .title{
+  align-items: center !important;
+}
+
+#jumbotron-2 .title h1{
+  
+  padding-top: 20px;
+}
+
+#jumbotron-2 .title p{
+  font-weight: normal;
+  padding-top: 50px;
+}
+
+#jumbotron-2 .btn-jumbobawah{
+  text-align: center;
+  color: #fff;
+  background-color: #c94014;
+  border-color: #c94014;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 500px;
+  margin-top:40px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.container-footer {
+  font-family: 'Roboto';
+  color: white;
+  text-align: center;
+  /* height: 80px; */
+  background-color: #2C448C;
+  backdrop-filter: blur(4px);
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+
+.card {
+  position: relative;
+  top:0;
+  left: 0;
+  border: 0;
+  box-shadow: 2px 2px 5px 0px rgba(143,143,143,0.5);
+  transition:
+    top 0.5s ease-in-out,
+    left 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out
+}
+
+#banner .card{
+  margin-bottom: 20px;
+}
+
+#tutorial .jumbotron{
+  background-color: #003886;
+  color: white;
+}
+.tutor-img{
+  max-width: 250px;
+}
+.card:hover {
+  top:-8px;
+  left: -8px;
+  box-shadow: 2px 2px 5px 0px rgba(143,143,143,1);
+}
+
+.modal-content table {
+  margin-bottom: 20px;
+}
+
+.todoFloat{
+  z-index: 10;
+	position:fixed;
+	width:100px;
+	height:100px;
+	bottom:40px;
+	right:40px;
+	background-color:#ED5855;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:30px;
+}

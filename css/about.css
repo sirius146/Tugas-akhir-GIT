@@ -1,0 +1,107 @@
+#header .jumbotron-fluid {
+    height: 600px;
+    padding: 20px;
+    background-image: url("../assets/images/banner-bawah.png") !important;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header .display-4 {
+    color: white;
+    padding: 0px  !important;
+    margin-top: 80px;
+}
+
+#kelebihan {
+    padding:100px 0px;
+}
+#kelebihan .main-container .manfaat {
+    margin-left: 50px;
+    align-items: center;
+    font-weight: bold;
+}
+
+#kelebihan h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+#kelebihan .circle {
+    list-style-type: circle;
+  }
+
+#kelebihan li {
+    padding: 5px;
+}
+  
+
+#tentang-roommate {
+    margin-top: 50px;
+  }
+  #tentang-roommate .main-container .title{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #tentang-roommate .main-container .title h2{
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  #pilihan {
+    padding-bottom: 100px;
+    background-color: #003886;
+    padding: 50px 0px;
+  }
+
+  #pilihan .main-container .title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#pilihan h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+#pilihan h3{
+    font-weight: bolder;
+}
+/* 
+#pilihan .card-body{
+    background-color: #003886;
+    color: white;
+} */
+
+#pilihan .card {
+    margin: 20px 0px;
+    padding: 0px 0px;
+}
+
+#jumbotron-2 .jumbotron-bawah-about {
+    background-color: #ED5855;
+    text-align: center;
+    color: white;
+    padding-bottom: 90px;
+    padding-top: 100px;
+}
+
+#jumbotron-2 .btn-jumbobawah-about{
+    text-align: center;
+  color: #003886;
+  background-color: white;
+  border-color: #c94014;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: bold;
+  width: 500px;
+  height: 70px;
+  margin-top:40px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
